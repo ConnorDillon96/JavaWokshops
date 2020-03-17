@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - DepartmentTest",
+            "request": "launch",
+            "mainClass": "Objects.DepartmentTest.DepartmentTest",
+            "projectName": "TextTest"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ItemTest",
             "request": "launch",
             "mainClass": "Objects.ItemTest.ItemTest",
