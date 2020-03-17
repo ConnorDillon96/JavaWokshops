@@ -1,6 +1,4 @@
-package EmpoyeeTest;
-
-import java.lang.reflect.Constructor;
+package Objects.EmployeeTest;
 
 /**
  * employee
@@ -37,7 +35,6 @@ public class employee {
     }
     @Override
     public String toString() {
-        // TODO Auto-generated method stub
         return ("number \t:\t" + this.number + "\n" 
         + "name \t:\t" + this.name + "\n"
         + "location \t:\t" + this.salary + "\n"
