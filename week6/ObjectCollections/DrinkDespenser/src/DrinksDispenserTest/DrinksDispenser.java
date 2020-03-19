@@ -29,14 +29,16 @@ public class DrinksDispenser {
 
     public void restockItem(String name, int amountToBeAdded){
         for (Item item : drinks) {
-            if(item.getName().equals(name)){
-                item.restock(amountToBeAdded);
-                System.out.println("restocked");
-                break;
+            if(item != null){
+                if(item.getName().equals(name)){
+                    item.restock(amountToBeAdded);
+                    System.out.println("restocked");
+                    break;
+            }
             }else{
 
             }
-               }
+        }
     }
 
     @Override
